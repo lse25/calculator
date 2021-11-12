@@ -39,7 +39,7 @@
     border-left: 20px solid rgb(82, 82, 78);
     border-right: 20px solid rgb(82, 82, 78);
     border-bottom: 15px solid rgb(82, 82, 78);
-    padding: 0 50px;
+    padding: 0 30px;
     border-radius: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -77,31 +77,31 @@ button:hover {
 
 .operator:active {
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 .number:active {
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 .all-clear:active {
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 .percentage:active{
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 .decimal:active{
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
 .equal-sign:active{
     position: relative;
-    top: 10px;
+    top: 4px;
 }
 
