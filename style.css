@@ -1,28 +1,35 @@
+* {
+    font-family: monospace;
+}
 .calculator {
     text-align: center;
     margin: 0 auto;
-    padding-top: 200px;
-    
+    padding : 200px 0;
+    background-color: rgb(207, 206, 108);
+    display: grid;
+    place-items: center;
 }
 
 .calculator-screen {
-    width: 100%;
-    height: 220px;
-    background-color: #030303;
-    color: rgb(248, 248, 248);
+    width: 50%;
+    display: flex;
+    height: 200px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(252, 252, 250);
     text-align: right;
-    font-size: 36px;
-    border-top: 80px solid rgb(77, 77, 75);
-    border-left: 15px solid rgb(36, 36, 35);
-    border-right: 15px solid rgb(36, 36, 35);
-    border-bottom: 25px solid rgb(36, 36, 35);
+    font-size: 33px;
+    border-top: 70px solid rgb(87, 87, 75);
+    border-left: 20px solid rgb(41, 41, 39);
+    border-right: 20px solid rgb(41, 41, 39);
+    border-bottom: 15px solid rgb(41, 41, 39);
     padding: 0 20px;
     box-sizing: border-box;
-    border-radius : 10px;
+    border-radius: 30px;
+    
 }
 
 .calculator-keys {
-    width: 100%;
+    width: 50%;
 }
 
 .row {
@@ -31,16 +38,16 @@
 }
 
 button {
-    height: 80px;
-    background-color: rgb(252, 252, 252);
-    border: 1px solid black;
-    font-size: 32px;
+    height: 60px;
+    background-color: rgb(247, 243, 243);
+    font-size: 23px;
     color: rgb(7, 7, 7);
     width: 25%;
     outline: none;
     cursor: pointer;
-    transition: 0.2s;
-    border: 1px solid rgb(41, 40, 37);
+    transition: 0.3s;
+    border: 1px solid rgb(104, 104, 85); 
+    border-radius : 8px;
 }
 
 .all-clear, .zero-btn {
@@ -48,15 +55,15 @@ button {
 }
 
 .operator, .equal-sign {
-    background-color: rgb(244, 248, 8);
+    background-color: rgb(248, 248, 39);
 }
 
 button:hover {
-    background-color: rgb(197, 191, 191);
+    background-color: rgb(196, 189, 189);
 }
 
 .operator:hover, .equal-sign:hover {
-    background-color: rgb(189, 192, 13);
+    background-color: rgb(218, 197, 9);
 }
 
 .operator:active {
