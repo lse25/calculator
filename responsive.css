@@ -1,0 +1,18 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .container {
+        background-color: rgb(5, 5, 5);
+        border-radius: 20px;
+        width: 60%;
+        
+    }
+  
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container {
+        background-color: rgb(5, 5, 5);
+        border-radius: 20px;
+        width: 70%;
+        
+    }
+}
